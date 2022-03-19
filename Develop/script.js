@@ -1,3 +1,7 @@
+var past = document.querySelector(".past");
+var present = document.querySelector(".present");
+var future = document.querySelector(".future");
+
 //Prints current date//
 var today = moment();
 $("#currentDay").text(today.format("MMM Do, YYYY"));
@@ -7,13 +11,11 @@ var currentHour = new Date().getHours();
 $(".colorcode").each(function () {
 	var val = parseInt($(this).prop("id"));
 	if (val > currentHour && val < currentHour + 6) {
-		$(this).css("background-color", "Blue");
+		$(this).addClass("future");
 	} else if (val < currentHour && val > currentHour - 6) {
-		$(this).css("background-color", "Red");
+		$(this).addClass("past");
 	} else if (val === currentHour) {
-		$(this).css("background-color", "Green");
-	} else {
-		$(this).css("background-color", "White");
+		$(this).addClass("present");
 	}
 });
 
