@@ -25,17 +25,9 @@ $(document).ready(function () {
 		}
 	});
 });
-const arr = () => {
-	["8", "9", "10", "11", "12", "13", "14", "15", "16", "17"];
-	$.each(localStorage.getItem(currentNumber));
-	if (localStorage.val !== null);
-	$(".myInput[id=${currentNumber}]").val;
-};
-arr();
 
 const substr = [8, 9, 10, 11, 12, 13, 14, 15, 16, 17];
 $.each(substr, function (index, val) {
-	localStorage.getItem(localStorage);
-	if (localStorage.val !== null) $(".myInput[id=${localStorage}]").val;
+	var myData = JSON.parse(localStorage.getItem(val));
+	if (myData !== null) $(`.myInput[id=${val}]`).val(myData);
 });
-substr();

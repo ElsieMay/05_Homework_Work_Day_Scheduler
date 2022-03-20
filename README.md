@@ -43,6 +43,10 @@ https://stackoverflow.com/questions/62925657/can-anyone-help-me-colorcode-my-tim
 https://stackoverflow.com/questions/62904905/how-do-i-color-code-time-blocks-using-js
 https://stackoverflow.com/questions/13291492/using-this-addclass-jquery
 https://momentjs.com
+https://stackoverflow.com/questions/8524613/using-for-loop-in-jquery
+https://www.sitepoint.com/jquery-each-function-examples/
+https://stackoverflow.com/questions/50523268/how-to-use-localstorage-in-jquery
+https://www.youtube.com/watch?v=NxVCq4p0Kb0
 
 ## License
 
