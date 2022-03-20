@@ -1,8 +1,3 @@
-var past = document.querySelector(".past");
-var present = document.querySelector(".present");
-var future = document.querySelector(".future");
-var myInput = document.querySelector("#myInput");
-
 //Prints current date//
 var today = moment();
 $("#currentDay").text(today.format("MMM Do, YYYY"));
@@ -10,11 +5,11 @@ $("#currentDay").text(today.format("MMM Do, YYYY"));
 $(document).ready(function () {
 	// saveBtn on click//
 	$(".saveBtn").on("click", function () {
-		var text = $(this).closest(myInput).val();
-		var time = $(this).closest().attr("id");
+		var text = $(this).prev(".myInput").val();
+		var time = $(this).prev().attr("id");
 
 		// Save event in local storage//
-		localStorage.setItem(time, text, JSON.stringify);
+		localStorage.setItem(time, JSON.stringify(text));
 	});
 
 	//Colour codes time//
@@ -28,16 +23,19 @@ $(document).ready(function () {
 		} else if (val === currentHour) {
 			$(this).addClass("present");
 		}
-
-		$("#8 .description").val(localStorage.getItem("8"));
-		$("#9 .description").val(localStorage.getItem("9"));
-		$("#10 .description").val(localStorage.getItem("10"));
-		$("#11 .description").val(localStorage.getItem("11"));
-		$("#12 .description").val(localStorage.getItem("12"));
-		$("#13 .description").val(localStorage.getItem("13"));
-		$("14 .description").val(localStorage.getItem("14"));
-		$("#15 .description").val(localStorage.getItem("15"));
-		$("#16 .description").val(localStorage.getItem("16"));
-		$("#17 .description").val(localStorage.getItem("17"));
 	});
 });
+const arr = () => {
+	["8", "9", "10", "11", "12", "13", "14", "15", "16", "17"];
+	$.each(localStorage.getItem(currentNumber));
+	if (localStorage.val !== null);
+	$(".myInput[id=${currentNumber}]").val;
+};
+arr();
+
+const substr = [8, 9, 10, 11, 12, 13, 14, 15, 16, 17];
+$.each(substr, function (index, val) {
+	localStorage.getItem(localStorage);
+	if (localStorage.val !== null) $(".myInput[id=${localStorage}]").val;
+});
+substr();
