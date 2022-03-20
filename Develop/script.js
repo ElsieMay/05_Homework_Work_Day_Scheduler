@@ -19,9 +19,11 @@ $(".colorcode").each(function () {
 	}
 });
 
+//Text input for event//
+
 //Saves event on click//
 $(document).ready(function () {
-	// Get value on button click
+	// Get value on button click//
 	$(".saveBtn").click(function () {
 		var str = $("#myInput").val();
 	});

@@ -25,6 +25,11 @@ textarea {
 	white-space: pre-wrap;
 }
 
+.col-a1,
+.description {
+	text-align: center;
+}
+
 .time-block {
 	text-align: center;
 	border-radius: 15px;
@@ -68,18 +73,26 @@ textarea {
 .saveBtn i:hover {
 	font-size: 20px;
 	transition: all 0.3s ease-in-out;
-}
-.container {
-	display: table;
-}
-
-.container .row {
-	display: table-row;
+	cursor: pointer;
 }
 
 .container .row .col {
 	display: table-cell;
-	padding: 5px;
 	border: 1px solid #333;
-	border-radius: 20px;
+}
+.container .row .col-a1 {
+	border: dashed;
+	border-left: none;
+	line-height: 10px;
+}
+
+.container .row .col-a2 {
+	height: 80px;
+}
+
+.fa-solid {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
