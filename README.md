@@ -2,9 +2,9 @@
 
 ## Description
 
-The motivation for this project was to create a coding assessment that includes both multiple-choice questions and interactive coding challenges. I built a timed coding quiz with multiple-choice questions, that runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code. I have created a clean, polished, and responsive user interface.
+The motivation for this project was to create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. The app runs in the browser and features dynamically updated HTML and CSS, powered by jQuery.
 
-I learnt about code responsive design, creating Javascript code, the console, algorhythms, linking Javascript to HTML and CSS, dynamic HTML and CSS, Javascript hierarchy, web APIs, Javascript variables and functions, Javascript for loops, arrays and much more.
+I learnt about moment.js, Jquery functions and algorithms, CSS, HTML, local storage, and much more.
 
 ## Table of Contents
 
@@ -24,14 +24,6 @@ The deployed application can be viewed via this link, https://elsiemay.github.io
 The Github repository can be viewed via this link, https://github.com/ElsieMay/04_Homework_web_apis.
 
 ![Screenshots](https://github.com/ElsieMay/04_Homework_web_apis/blob/main/assets/images/Screen%20Shot%202022-03-17%20at%208.29.35%20pm.png)
-
-![Screenshots](https://github.com/ElsieMay/04_Homework_web_apis/blob/main/assets/images/Screen%20Shot%202022-03-17%20at%208.29.40%20pm.png)
-
-![Screenshots](https://github.com/ElsieMay/04_Homework_web_apis/blob/main/assets/images/Screen%20Shot%202022-03-17%20at%208.29.49%20pm.png)
-
-![Screenshots](https://github.com/ElsieMay/04_Homework_web_apis/blob/main/assets/images/Screen%20Shot%202022-03-17%20at%208.30.11%20pm.png)
-
-![Screenshots](https://github.com/ElsieMay/04_Homework_web_apis/blob/main/assets/images/Screen%20Shot%202022-03-17%20at%208.30.24%20pm.png)
 
 ## Credits
 
