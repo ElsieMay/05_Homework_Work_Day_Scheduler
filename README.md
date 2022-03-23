@@ -4,7 +4,7 @@
 
 The motivation for this project was to create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. The app runs in the browser and features dynamically updated HTML and CSS, powered by jQuery.
 
-I learnt about moment.js, Jquery functions and algorithms, CSS, HTML, local storage, and much more.
+I learnt about moment.js, Jquery functions, event handlers and algorithms, CSS, HTML, local storage, and much more.
 
 ## Table of Contents
 
@@ -15,15 +15,15 @@ I learnt about moment.js, Jquery functions and algorithms, CSS, HTML, local stor
 
 ## Installation
 
-The project can be viewed via this link, https://elsiemay.github.io/04_Homework_web_apis/. There is no installation required.
+The project can be viewed via this link, https://elsiemay.github.io/05_Homework_Work_Day_Scheduler/. There is no installation required.
 
 ## Usage
 
-The deployed application can be viewed via this link, https://elsiemay.github.io/04_Homework_web_apis/.
+The deployed application can be viewed via this link, https://elsiemay.github.io/05_Homework_Work_Day_Scheduler/.
 
-The Github repository can be viewed via this link, https://github.com/ElsieMay/04_Homework_web_apis.
+The Github repository can be viewed via this link, https://github.com/ElsieMay/05_Homework_Work_Day_Scheduler.
 
-![Screenshots](https://github.com/ElsieMay/04_Homework_web_apis/blob/main/assets/images/Screen%20Shot%202022-03-17%20at%208.29.35%20pm.png)
+![Screenshots](https://github.com/ElsieMay/05_Homework_Work_Day_Scheduler/blob/main/Develop/images/Screen%20Shot%202022-03-23%20at%2010.43.18%20pm.png)
 
 ## Credits
 
